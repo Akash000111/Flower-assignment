@@ -147,3 +147,100 @@ padding: 100px 30px 0px 30px;
   margin-bottom: 32px;
 }
 
+.pic-container{
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+
+
+}
+
+.flower-pic{
+    margin-right: 15px;
+    box-shadow: 3px;
+}
+
+
+.img-card{
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 128px auto;
+  position: relative;
+  text-align: center;
+}
+
+.img-text{
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  
+}
+
+.img-h3{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.img-p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+::placeholder{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 5%;
+}
+
+input[type=email]{
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+  position: absolute;
+  top: 60%;
+  left: 17%;
+}
+
+#subs-btn{
+  position: absolute;
+  top: 60%;
+  right:21% ;
+  
+}
+
+footer{
+  background-color: #111010;
+  text-align: center;
+  color: #fff;
+}
+
+span{
+  color: #E55473;
+}
+
+.foot-h3{
+  padding-top: 128px;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.foot-p{
+color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+
+.foot-bottom{
+color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 128px;
+}
