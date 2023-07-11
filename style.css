@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+/* nav part start */
+#header{
+  background-color: rgba(229, 84, 115, 0.10);
+}
+
+nav{
+  display: flex;
+}
+
+.nav-content{
+  padding: 200px 240px;
+}
+
+.nav-h1{
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.nav-p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.common-btn{
+  border-radius: 8px;
+  background: #E55473;
+  border: 0;
+  color: #fff;
+  padding: 20px 43px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.first-pic{
+  margin-top: 50px;
+}
+
+/* nav part end */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+
+
+.top-section{
+  margin: 180px auto 70PX auto;
+  text-align: center;
+
+
+}
+
+.section-title{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.section-description{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.flower-container{
+  display: flex;
+}
+
+
+.one{
+width: 400px;
+height: 500px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+margin-right: 30px;
+padding: 100px 30px 0px 30px;
+}
+
+.two{
+  width: 400px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  margin-right: 40px;
+  padding: 100px 30px 0px 30px;
+}
+
+.three{
+  width: 400px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 100px 30px 0px 30px;
+}
+
+.flower-title{
+  margin-top: 20px;
+  text-decoration: underline;
+  /* margin-bottom: 500px; */
+}
+
+.skill-container{
+  margin-top: 128px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 120px ;
+  
+}
+
+#mid-section{
+  margin-top: 128px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 200px 400px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+
+.mid-h3{
+  margin-bottom: 24px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.mid-p{
+  margin-bottom: 32px;
+}
+
